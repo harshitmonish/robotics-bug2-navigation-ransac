@@ -1,0 +1,10 @@
+<launch>
+
+ <node pkg="lab3" name="lab3" type="bug2.py" output="screen">
+  <param name="initial_x" value="0.0" />
+  <param name="initial_y" value="0.0" />
+  <param name="goal_x" value="4.5" />
+  <param name="goal_y" value="9.0" />
+ </node>
+
+</launch>
