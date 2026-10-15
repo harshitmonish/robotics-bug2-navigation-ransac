@@ -4,10 +4,10 @@ This ROS 1 project contains two components for a simulated Husky robot: Bug2-sty
 
 ## Contents
 
-- `lab3/src/bug2.py` subscribes to front laser scans and odometry, then publishes velocity commands to `/husky_velocity_controller/cmd_vel`.
-- `lab3/src/ransac.py` converts laser ranges into planar points and publishes visualization markers.
-- `lab3/launch/bug2.launch` starts the navigation node with initial and goal coordinates.
-- `lab3/launch/perception.launch` starts the RANSAC node and RViz with `lab3/rviz/lab3.rviz`.
+- `src/bug2.py` subscribes to front laser scans and odometry, then publishes velocity commands to `/husky_velocity_controller/cmd_vel`.
+- `src/ransac.py` converts laser ranges into planar points and publishes visualization markers.
+- `launch/bug2.launch` starts the navigation node with initial and goal coordinates.
+- `launch/perception.launch` starts the RANSAC node and RViz with `lab3/rviz/lab3.rviz`.
 
 ## Requirements
 
@@ -15,7 +15,7 @@ ROS 1 with catkin, `rospy`, `geometry_msgs`, `nav_msgs`, `sensor_msgs`, `visuali
 
 ## Build and launch
 
-Place `lab3` in a catkin workspace's `src/` directory, then:
+Place `this dir` in a catkin workspace's `src/` directory, then:
 
 ```bash
 cd ~/catkin_ws
